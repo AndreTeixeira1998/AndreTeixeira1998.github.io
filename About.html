@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <!--    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+          integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="styles/navBarStyle.css">
+
+
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <script language="javascript" src="libraries/p5.dom.js"></script>
+    <script language="javascript" src="libraries/p5.sound.js"></script>
+    <script language="javascript" type="text/javascript" src="pageJs/sketch.js"></script>
+
+    <!--Debugger-->
+    <!--            <link rel="stylesheet" href="styles/debug.css">-->
+    <title>Projects</title>
+
+    <style>
+        html, body{
+            height:100%;
+            min-height: auto;
+        }
+        html{
+            background: #141414;
+        }
+        .mainContainer {
+            display: grid;
+            grid-template-columns: 1fr 5fr 1fr;
+            padding-top: 2em;
+            /*background: white;*/
+
+        }
+
+        .mainContent {
+            grid-column: 2;
+        }
+
+        .projectItems {
+            display: grid;
+            grid-column: 2;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-content: center;
+            justify-content: center;
+            grid-gap: 2em;
+        }
+
+        .projectItems > div {
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+
+        }
+
+
+
+        .content {
+
+
+        }
+
+        .title {
+            font-family: montserrat-bold;
+        }
+
+        @media screen and (max-width: 1600px) {
+            .projectItems {
+                grid-template-columns: 1fr 1fr;
+            }
+            html, body{
+                height:auto;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .projectItems {
+                grid-template-columns: 1fr;
+
+            }
+            html, body{
+                height:auto;
+            }
+            .content {
+
+                font-size: 80%;
+            }
+
+            .title.is-4 {
+                font-size: 1em;
+            }
+        }
+
+
+    </style>
+
+
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+
+        function setupElements() {
+            let hamburgerClicked = false;
+            var element = select('button');
+            element.touchStarted(clickedHamburger);
+            element = select("body");
+            element.touchStarted(clickedBody);
+        }
+
+
+        clickedBody = function (e) {
+            if (!hamburgerClicked && windowWidth < 700) {
+                var menuItems = document.getElementsByClassName("menuItems");
+                menuItems[0].style.display = "none";
+            }
+            hamburgerClicked = false;
+        };
+
+        function clickedHamburger() {
+            var menuItems = document.getElementsByClassName("menuItems");
+            if (menuItems[0].style.display === "grid")
+                return;
+            menuItems[0].style.display = "grid";
+            hamburgerClicked = true;
+        }
+
+        function onResize() {
+            var menuItems = document.getElementsByClassName("menuItems");
+            if (windowWidth > 700 && menuItems[0].style.display === "none") {
+
+                menuItems[0].style.display = "grid";
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+<div class="navBar">
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/GlowingLogoWithName.png" alt="TheBigCB.com">
+
+        </a>
+    </div>
+
+    <div class="menuItems">
+        <div >
+            <a href="index.html">Home</a>
+        </div>
+        <div>
+            <a href="projects.html">Projects</a>
+
+        </div>
+        <div>
+            <a href="merch.html">Merch</a>
+
+        </div>
+        <div class="active">
+            <a href="About.html">About</a>
+
+        </div>
+
+    </div>
+    <button class="hamburgerButton" onclick="">
+        <i class="fa fa-bars" style="font-size:24px;color:white"></i>
+    </button>
+
+    <div class="socials">
+        <div>
+            <a href="https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q">
+                <div class="tooltip">
+                    <i class="fa fa-youtube-play" style="font-size:24px;color:white"></i>
+                    <span class="tooltiptext">YouTube</span>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="https://twitter.com/code_bullet">
+                <div class="tooltip">
+                    <i class="fa fa-twitter" style="font-size:24px;color:white"></i>
+                    <span class="tooltiptext">Twitter</span>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="https://discord.gg/qda75m8">
+                <div class="tooltip">
+                    <i class="fa fa-discord" style="font-size:24px;color:white"></i>
+                    <span class="tooltiptext">Discord</span>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="https://www.patreon.com/CodeBullet">
+                <div class="tooltip">
+                    <i class="fa fa-patreon" style="font-size:24px;color:white"></i>
+                    <span class="tooltiptext">Patreon</span>
+                </div>
+            </a>
+        </div>
+        <div>
+            <a href="https://github.com/Code-Bullet">
+                <div class="tooltip">
+                    <i class="fa fa-github" style="font-size:24px;color:white"></i>
+                    <span class="tooltiptext">GitHub</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="mainContainer">
+    <div class="mainContent">
+        <div class="card">
+
+            <div class="card-content">
+                <div class="content">
+                    <center>
+                        <p class="title is-4">About Me</p>
+                        <p class="subtitle is-6">Mr. Code Bullet</p>
+                    </center>
+
+
+
+                    <br>
+                    <br>
+                    <img src="images/code Bullet pose.png" height="480" width="480" style="width: 40%; max-width: 480px; min-width:200px; float:left; padding: 1em"/>
+                    I was born in the harsh Australian outback, where it has never once rained and where is it is so hot
+                    that it is biologically
+                    impossible to feel joy. I was abandoned by my birth parents because they were scared of my abilities,
+                    so I was raised by giant desert wolves.
+                    My only solution to survive was to hack the sand in order to get the nutrients I needed, luckily the
+                    desert wolves were adept at programming and taught me everything I know about computer science.
+                    Eventually I evolved to have a computer integrated into my face, this reduced the latency between my
+                    brain and the computer. On my 12th birthday I was tossed into the desert ocean as a coming of age
+                    ceremony. <br>
+                    The wolves called this "if(wolf.age >= 12){ wolf.position = ocean;}". In order to survive this trial,
+                    I hacked the desert sharks and programmed them to drink all the desert ocean so I could escape. <br>
+                    Victory <br>
+                    At this point I was officially a desert Wolf Alpha. I was happy.
+                    <br>
+                    <br>
+                    2 years later something happened which changed my life forever. <br>
+                    I was watering the desert ocean when I heard it, the terrifying roar of the desert Lions.<br>
+                    I ran back to the desert wolf camp, when I saw the devastation.<br>
+                    The desert Lion King had given a ted talk to every member of my pack, convincing them to use the
+                    python programming language <br>
+                    <strong>Oh the horror </strong><br>
+                    The desert Lion King took off his glasses and stared directly into my monitor face and smiled as he
+                    said "Look at these 1 line for loops"
+                    <br>
+                    "Python is for filthy casuals and always will be" I shouted, however my words fell on deaf ears,
+                    the damage was already done.
+                    <br>
+                    I turned my back on the traitors which I had once called my pack and ran, ran as far as I could.
+                    <br>
+                    I escaped.
+                    <br>
+                    But the losses I experienced that day would haunt me forever.
+                    <br>
+                    I've spent every second of my remaining life in hiding. To pass the time I make youtube videos and
+                    shitty websites, however one day my past will catch
+                    up with me and when that day comes, I will fight to my very last semicolon against the wrath of the
+                    Desert Lion King.
+                    <br>
+                    <br>
+                    <br>
+                    I also like long walks on the beach and puppies.
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
