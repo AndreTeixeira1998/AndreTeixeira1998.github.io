@@ -235,3 +235,10 @@ a:hover{
         display: block;
     }
 }
+@media screen and (max-height: 1000px) {
+    .navBar {
+        grid-template-rows: 40px;
+    }
+
+
+}

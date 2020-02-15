@@ -48,7 +48,7 @@ function preload() {
 
     //load sounds
     for (let i = 0; i < 10; i++) {
-        screamSounds.push(loadSound('AI Learns to walk/sounds/screamingSoundWithPause.wav'));
+        screamSounds.push(loadSound('AI learns to walk/sounds/screamingSoundWithPause.wav'));
         screamSounds[i].setVolume(0.2);
         screamSounds[i].setLoop(true);
         screamSounds[i].playMode('restart');
@@ -56,11 +56,11 @@ function preload() {
 
     }
 
-    lazerShot = loadSound('AI Learns to walk/sounds/lazerShot.mp3');
-    burnedPlayer = loadSound('AI Learns to walk/sounds/burnedByLazer.mp3');
+    lazerShot = loadSound('AI learns to walk/sounds/lazerShot.mp3');
+    burnedPlayer = loadSound('AI learns to walk/sounds/burnedByLazer.mp3');
 
 
-    lazerSoundEffect = loadSound('AI Learns to walk/sounds/LazerSoundEffect.wav');
+    lazerSoundEffect = loadSound('AI learns to walk/sounds/LazerSoundEffect.wav');
     lazerSoundEffect.playMode('restart');
     lazerSoundEffect.setLoop(true);
 

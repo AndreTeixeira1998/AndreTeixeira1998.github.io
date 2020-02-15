@@ -27,6 +27,9 @@ let scaleAmount = 10;
 
 let projects = [];
 
+
+let lowPowerMode = false;
+
 function preload() {
 
 
@@ -82,9 +85,14 @@ function preload() {
 
 let RArrowPositions = [];
 let LArrowPositions = [];
+let dotNo = 0;
 
 function setup() {
-    if (windowHeight < 1000) {
+    if (windowHeight < 800) {
+
+        window.canvas = createCanvas(128 * 6, 96 * 6);
+        scaleAmount = 6;
+    } else if (windowHeight < 1000) {
         window.canvas = createCanvas(128 * 8, 96 * 8);
         scaleAmount = 8;
     } else {
@@ -162,6 +170,7 @@ function setup() {
         dots.push(new Dot());
     }
     setTargetsForNextImage();
+    window.d = new Date();
 
 }
 
@@ -191,6 +200,7 @@ function setTargetsForNextImage() {
     this.roundedScale = Math.floor(scaleAmount / 2) * 2;
 
     let arrowPositions = [...LArrowPositions, ...RArrowPositions];
+    targets = [];
     for (var y = 0; y < newImage.height; y++) {
         for (var x = 0; x < newImage.width; x++) {
             var index = (x + y * newImage.width) * 4;
@@ -214,21 +224,33 @@ function setTargetsForNextImage() {
             }
 
             targets.push({x: x * scaleAmount, y: y * scaleAmount, r: r, g: g, b: b});
+
+
         }
     }
 
-
+    // if (lowPowerMode) {
+    //     for (let i = 0; i < dots.length; i++) {
+    //         var tempTarget = targets[i];
+    //
+    //         dots[i].setTarget(tempTarget.x, tempTarget.y, tempTarget.r, tempTarget.g, tempTarget.b);
+    //     }
+    // }else{
     for (let dot of dots) {
         var tempTarget = targets.splice(floor(random(targets.length)), 1)[0];
         dot.setTarget(tempTarget.x, tempTarget.y, tempTarget.r, tempTarget.g, tempTarget.b);
     }
-
+    // }
     dots.sort((a, b) => b.target.x - a.target.x);
+
+
 }
 
 let showing;
 
 function draw() {
+    var d = new Date();
+    let startTime = d.getMilliseconds();
     if (pause)
         return;
     //check if all the dots have reached their goal
@@ -259,6 +281,11 @@ function draw() {
             frameRateRatio = 1;
         }
 
+        if (frameRate() < 8 && frameCount > 10) {
+            lowPowerMode = true;
+            print("LOW POWER MODE BABY", `frame Rate ${frameRate()}`, frameCount);
+        }
+
 
         //instead Of Drawing Background draw a rectangle to the max unreached x
         //that way instead of having to redraw the dots just redraw the x
@@ -286,6 +313,7 @@ function draw() {
         for (let i = 0; i < dots.length; i++) {
             let dotNo = finishFromLeft ? i : dots.length - 1 - i;
 
+
             dots[dotNo].move();
             dots[dotNo].show(minMovingX, maxMovingX);
 
@@ -295,6 +323,11 @@ function draw() {
         stroke(20);
         strokeWeight(2);
         line(canvas.width, 0, canvas.width, canvas.height);
+
+        d = new Date();
+        let endTimer = d.getMilliseconds();
+
+        print(endTimer - startTime, showing);
 
 
     }
@@ -385,6 +418,8 @@ function draw() {
     // text(frameRate().toFixed(2), 10, 10);
     // textSize(20);
     // text(showing, 100, 100);
+
+
 }
 
 let onRight = false;
@@ -525,11 +560,11 @@ function showProjectInfo() {
     stroke(20);
     strokeWeight(1);
     textAlign(CENTER, CENTER);
-    scaleAmount === 10 ? textSize(50): textSize(40);
+    scaleAmount === 10 ? textSize(50) : textSize(40);
     text(projects[projectNo].description[0], canvas.width / 2, topOfRect + scaleAmount * 4);
 
     textSize(25);
-    scaleAmount === 10 ? textSize(25): textSize(18);
+    scaleAmount === 10 ? textSize(25) : textSize(18);
 
     for (let i = 1; i < projects[projectNo].description.length; i++) {
         text(projects[projectNo].description[i], canvas.width / 2, topOfRect + scaleAmount * (5 + 4 * i));
