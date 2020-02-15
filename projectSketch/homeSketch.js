@@ -278,7 +278,7 @@ function draw() {
         if (frameRate() > 0) {
 
             if (superSpeed) {
-                frameRateRatio = 120 / frameRate();
+                frameRateRatio = 100 / frameRate();
             } else {
                 frameRateRatio = 20 / frameRate();
 

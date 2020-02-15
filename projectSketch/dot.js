@@ -207,13 +207,13 @@ class Dot {
 
 
         //if the dot is currently showing and the dot is not waiting or reached its destination then draw a box to remove it
-        if (this.isShowing && !this.reached && this.waitCount < 0) {
+        if (this.isShowing && (this.justReached||!this.reached) && this.waitCount < 0) {
             this.isShowing = false;
             //erase the dot
             fill(20);
             noStroke();
             rect(this.startingPos.x + 1, this.startingPos.y + 1, scaleAmount - 2, scaleAmount - 2);
-            return;
+            // return;
         }
 
         //if the dot isnt currently showing but it should be then draw it
@@ -228,8 +228,9 @@ class Dot {
 
             rect(this.pos.x + 1, this.pos.y + 1, roundedScale - 2, roundedScale - 2);
 
-            return;
+            // return;
         }
+        this.justReached = false;
 
     }
 
