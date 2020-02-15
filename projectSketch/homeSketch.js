@@ -248,6 +248,10 @@ function setTargetsForNextImage() {
 
 let showing;
 
+let slowFRCount = 0;
+let showEveryXInSlowMode = 4;
+
+
 function draw() {
     var d = new Date();
     let startTime = d.getMilliseconds();
@@ -264,6 +268,8 @@ function draw() {
 
     if (allReached) {//if they have then wait a bit mate (dont show anything)
         //drawMesh();
+        slowFRCount = 0;
+
         superSpeed = false;
     } else {//if some dots have yet to reach their destination then show them all
 
@@ -281,9 +287,19 @@ function draw() {
             frameRateRatio = 1;
         }
 
-        if (frameRate() < 8 && frameCount > 10) {
-            lowPowerMode = true;
-            print("LOW POWER MODE BABY", `frame Rate ${frameRate()}`, frameCount);
+        if (frameRate() < 16 && frameCount > 6) {
+            if (slowFRCount < 4) {
+                slowFRCount++;
+                print("OOP");
+
+            } else {
+                showEveryXInSlowMode = Math.min(8, showEveryXInSlowMode + 1);
+                lowPowerMode = true;
+                slowFRCount = 0;
+                print("LOW POWER MODE BABY", `frame Rate ${frameRate()}`, frameCount);
+            }
+        } else {
+
         }
 
 
@@ -299,7 +315,7 @@ function draw() {
         maxMovingX = getMaxMovingX();
         push();
         rectMode(CORNERS);
-        if (maxMovingX < minMovingX) {
+        if (maxMovingX < minMovingX || (lowPowerMode && dots[0].targetNo > 1)) {
 
             //draw nothing
         } else {
@@ -327,7 +343,7 @@ function draw() {
         d = new Date();
         let endTimer = d.getMilliseconds();
 
-        print(endTimer - startTime, showing);
+        print(endTimer - startTime, showing, frameRate());
 
 
     }
@@ -338,6 +354,8 @@ function draw() {
             if (!onRight) {
                 background(20);
                 for (let d of dots) {
+                    d.isShowing = false;
+
                     d.show(0, 2000);
                 }
 
@@ -361,6 +379,7 @@ function draw() {
             if (!onLeft) {
                 background(20);
                 for (let d of dots) {
+                    d.isShowing = false;
                     d.show(0, 2000);
                 }
 
@@ -386,6 +405,8 @@ function draw() {
                 //draw the scene without highlighting the buttons
                 background(20);
                 for (let d of dots) {
+                    d.isShowing = false;
+
                     d.show(0, 2000);
                 }
                 //also show the poject information
@@ -402,6 +423,8 @@ function draw() {
             //draw the scene without highlighting the buttons
             background(20);
             for (let d of dots) {
+                d.isShowing = false;
+
                 d.show(0, 2000);
             }
 
@@ -560,12 +583,17 @@ function showProjectInfo() {
     stroke(20);
     strokeWeight(1);
     textAlign(CENTER, CENTER);
-    scaleAmount === 10 ? textSize(50) : textSize(40);
+    // scaleAmount === 10 ? textSize(50) : textSize(40);
+    textSize(map(scaleAmount, 10, 8, 50, 40));
+
     text(projects[projectNo].description[0], canvas.width / 2, topOfRect + scaleAmount * 4);
 
     textSize(25);
-    scaleAmount === 10 ? textSize(25) : textSize(18);
-
+    textSize(map(scaleAmount, 10, 8, 25, 18));
+    // scaleAmount === 10 ? textSize(25) : textSize(18);
+    if (scaleAmount == 6) {
+        textSize(15);
+    }
     for (let i = 1; i < projects[projectNo].description.length; i++) {
         text(projects[projectNo].description[i], canvas.width / 2, topOfRect + scaleAmount * (5 + 4 * i));
     }

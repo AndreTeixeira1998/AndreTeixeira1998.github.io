@@ -28,7 +28,7 @@ function preload() {
 function setup() {
 
     setupElements();
-    window.canvas = createCanvas(windowWidth, windowHeight);
+    window.canvas = createCanvas(windowWidth-18, windowHeight);
     canvas.position(0, 0);
     window.canvas.style('z-index', 1);
     setBlocks();
@@ -69,7 +69,7 @@ function setBlocks() {
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
+    resizeCanvas(windowWidth-18, windowHeight);
     blockSize = min(width / blocksX, height / blocksY);
     outlineLength = blockSize / 15;
     xOffset = (width - blockSize * blocksX) / 2.0;
@@ -178,7 +178,7 @@ function keyPressed() {
     }
     switch (key) {
         case ' ':
-            speedMultiplier = 2;
+            speedMultiplier = 10;
             break;
 
     }

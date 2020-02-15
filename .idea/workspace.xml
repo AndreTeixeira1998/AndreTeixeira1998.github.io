@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/projectSketch/homeSketch.js" line="494" />
+    <bookmark url="file://$PROJECT_DIR$/projectSketch/homeSketch.js" line="517" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48672a2e-6501-4135-acb1-dd5eed20bb12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/favicon3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/About.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/creatureCreator.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/Creature Creator/creatureCreator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/Creature Creator/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/hillClimbRacing.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/hillClimbRacing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/MarbleCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/MarbleCalculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/level1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/level1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/level2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/level2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/level3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/level3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level4/level4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level4/level4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level5/level5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level5/level5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level6/level6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level6/level6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHGprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHGprojects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/chess.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/chess/chess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/flappyBird.html" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSketches/flappyBird/flappyBird.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merch.html" beforeDir="false" afterPath="$PROJECT_DIR$/merch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnakeGame/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeGame/sketch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectSketch/dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/projectSketch/dot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectSketch/homeSketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projectSketch/homeSketch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/navBarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/navBarStyle.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,11 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projectSketch/homeSketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state relative-caret-position="-4209">
+              <caret line="289" column="28" selection-start-line="289" selection-start-column="28" selection-end-line="289" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -52,17 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projectSketch/dot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="746">
-              <caret line="239" column="19" lean-forward="true" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+            <state relative-caret-position="908">
+              <caret line="279" column="8" selection-start-line="279" selection-start-column="8" selection-end-line="279" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1241">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="663">
+              <caret line="155" column="36" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -75,12 +66,17 @@
       <find>14</find>
       <find>10</find>
       <find>0</find>
-      <find>print</find>
       <find>creatureCreator</find>
       <find>fucking</find>
-      <find>rect</find>
       <find>background</find>
+      <find>windowWidth</find>
+      <find>print</find>
+      <find>rect</find>
       <find>maxAnimationCounter</find>
+      <find>21</find>
+      <find>rand</find>
+      <find>16</find>
+      <find>lowPowerMode</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -111,18 +107,19 @@
         <option value="$PROJECT_DIR$/ProjectSketches/Creature Creator/sketch.js" />
         <option value="$PROJECT_DIR$/styles/navBarStyle.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/ProjectSketches/Creature Creator/creatureCreator.html" />
-        <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/merch.html" />
-        <option value="$PROJECT_DIR$/projectSketch/dot.js" />
+        <option value="$PROJECT_DIR$/ProjectSketches/Creature Creator/creatureCreator.html" />
+        <option value="$PROJECT_DIR$/SnakeGame/sketch.js" />
         <option value="$PROJECT_DIR$/projectSketch/homeSketch.js" />
+        <option value="$PROJECT_DIR$/projectSketch/dot.js" />
+        <option value="$PROJECT_DIR$/projects.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1908" />
-    <option name="width" value="1941" />
-    <option name="height" value="2112" />
+    <option name="x" value="-11" />
+    <option name="width" value="2813" />
+    <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,16 +133,6 @@
             <path>
               <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
-              <item name="projectSketch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
-              <item name="SnakeGame" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,18 +185,18 @@
       <workItem from="1581579325818" duration="9488000" />
       <workItem from="1581655072861" duration="52000" />
       <workItem from="1581655195937" duration="4730000" />
-      <workItem from="1581727825834" duration="17756000" />
+      <workItem from="1581727825834" duration="29902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41173000" />
+    <option name="totallyTimeSpent" value="53319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-7" y="0" width="1875" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14736013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20348205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,20 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectSketches/Creature Creator/creatureCreator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2924">
-          <caret line="172" column="31" lean-forward="true" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/navBarStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4063">
@@ -444,34 +417,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectSketches/Creature Creator/creatureCreator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SnakeGame/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="248">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1241">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectSketch/dot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="239" column="19" lean-forward="true" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projectSketch/homeSketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        <state relative-caret-position="-4209">
+          <caret line="289" column="28" selection-start-line="289" selection-start-column="28" selection-end-line="289" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectSketch/dot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="908">
+          <caret line="279" column="8" selection-start-line="279" selection-start-column="8" selection-end-line="279" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="155" column="36" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
         </state>
       </provider>
     </entry>
