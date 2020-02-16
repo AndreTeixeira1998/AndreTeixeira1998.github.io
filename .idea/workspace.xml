@@ -6,272 +6,50 @@
   <component name="ChangeListManager">
     <list default="true" id="48672a2e-6501-4135-acb1-dd5eed20bb12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/.idea/AI-Learns-To-Walk-with-editor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/.idea/AI-Learns-To-Walk-with-editor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/ConnectionGene.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/ConnectionGene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/ConnectionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/ConnectionHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/Species.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Species.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/genome.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/genome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/sounds/LazerSoundEffect.wav" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sounds/LazerSoundEffect.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/sounds/burnedByLazer.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sounds/burnedByLazer.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/sounds/lazerShot.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sounds/lazerShot.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/AI learns to walk/sounds/screamingSoundWithPause.wav" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sounds/screamingSoundWithPause.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Box2dGlobals.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Box2dGlobals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/CompoundFixture.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/CompoundFixture.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/BodyImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/BodyImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/AdvancedButtons/AllowBodyCollisionsToggleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/AdvancedButtons/AllowBodyCollisionsToggleButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/AdvancedButtons/BasicOptionsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/AdvancedButtons/BasicOptionsButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/AdvancedButtons/DeathUponFloorButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/AdvancedButtons/DeathUponFloorButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/AdvancedButtons/EditShapeLayersButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/AdvancedButtons/EditShapeLayersButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/AdvancedButtons/LimitJointsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/AdvancedButtons/LimitJointsButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/AdvancedButtons/ShapeCollisionsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/AdvancedButtons/ShapeCollisionsButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/AdvancedButtons/ShowJointLimitsToggleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/AdvancedButtons/ShowJointLimitsToggleButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/ConstructionButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/ConstructionButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/CosmeticButtons/AddImagesToShapeButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/CosmeticButtons/AddImagesToShapeButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/CosmeticButtons/ChangeFillColorButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/CosmeticButtons/ChangeFillColorButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/CosmeticButtons/DeleteImageButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/CosmeticButtons/DeleteImageButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/CosmeticButtons/MoveResizeImageButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/CosmeticButtons/MoveResizeImageButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/CosmeticButtons/MoveRotateImageButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/CosmeticButtons/MoveRotateImageButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/CosmeticsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/CosmeticsButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/AddCircleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/AddCircleButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/AddJointButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/AddJointButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/AddPolygonButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/AddPolygonButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/AddRectangleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/AddRectangleButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/AdvancedButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/AdvancedButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/CloneShapeButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/CloneShapeButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/DeleteButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/DeleteButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/FuseShapesButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/FuseShapesButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/MoveResizeButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/MoveResizeButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/DefaultButtons/MoveRotateButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/DefaultButtons/MoveRotateButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/EvolveButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/EvolveButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/DeathLazerSpeedValueButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/DeathLazerSpeedValueButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/EditCreatureButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/EditCreatureButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/MuteButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/MuteButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/NumberOfBatchesValueButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/NumberOfBatchesValueButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/PopulationSizeValueButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/PopulationSizeValueButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/ReplayEvolutionHighlightsButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/ReplayEvolutionHighlightsButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/ReplayPopularSpeciesButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/ReplayPopularSpeciesButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/SimulationSpeedValueButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/SimulationSpeedValueButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/LearningButtons/SpeedUpWhenPlayersDieToggleButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/LearningButtons/SpeedUpWhenPlayersDieToggleButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/PlayPauseButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/PlayPauseButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonCreationMethods/StopButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/StopButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/ButtonManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CommonColorsArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CommonColorsArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/CBHead.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/CBHead.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/Hat 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/Hat 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/L eye 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/L eye 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/R eye 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/R eye 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/eyes1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/eyes1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 10.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/face 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/mouth 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/mouth 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/mouth 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/mouth 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/mouth1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/mouth1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/mustache 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/mustache 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/CosmeticImages/mustache 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/mustache 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/Creature.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Creature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/HotBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/HotBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/Instruction.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Instruction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/MouseJoint.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/MouseJoint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/Warning.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Warning.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/World.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/World.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Fixtures.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Fixtures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Fonts/RobotoMono-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Fonts/RobotoMono-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Fonts/RobotoMono-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Fonts/RobotoMono-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/Joints.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Joints.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/creatureCreator.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/libraries/Box2d.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/libraries/Box2d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/libraries/p5.dom.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/libraries/p5.dom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/libraries/p5.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/libraries/p5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/libraries/p5.sound.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/libraries/p5.sound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/pics/ConveryerBeltSection.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/pics/ConveryerBeltSection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/pics/dangerFloor.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/pics/dangerFloor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/pics/floorTiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/pics/floorTiles.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/pics/lazerBurnGround3.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/pics/lazerBurnGround3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/pics/mutedYellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/pics/mutedYellow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/pics/topImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/pics/topImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/pics/unmutedYellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/pics/unmutedYellow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Creature Creator/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Car.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/ConnectionGene.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/ConnectionGene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/ConnectionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/ConnectionHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Genome.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Genome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Ground.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Neat.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Neat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Person.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Person.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/CBHead2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/CBHead2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/CBHead3.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/CBHead3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/car.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/car.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/darkness.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/darkness.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/grass.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/grass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/grass2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/grass2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/grass3.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/grass3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/grass4.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/grass4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/grass5.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/grass5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/grass6.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/grass6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/head.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/head.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/headLarge.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/headLarge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/sky.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/sky.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/wheel.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/wheel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Pics/wheel2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Pics/wheel2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/PlayerOld.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/PlayerOld.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Species.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Species.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/Wheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/Wheel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/World.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/World.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/hillClimbRacing.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/Hill Climb Racing/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/HillClimbRacing/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/MarbleCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MarbleCalculator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/Object.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MarbleCalculator/Object.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/looseRect.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MarbleCalculator/looseRect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/marble.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MarbleCalculator/marble.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MarbleCalculator/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/solid.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MarbleCalculator/solid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/startingMarbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/MarbleCalculator/startingMarbles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Brain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Coin.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Coin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Dot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/Brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/Brain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/Dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/Dot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/Solid.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/Solid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/Tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/Tile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/assets/DAB.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/assets/DAB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/level1.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/setting_level.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/setting_level.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level1/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Brain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Coin.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Coin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Dot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Solid.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Solid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/Tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/Tile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/assets/DAB.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/assets/DAB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/level2.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/setting_level.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/setting_level.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level2/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Brain.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Brain.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Coin.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Coin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Dot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Solid.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Solid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/Tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/Tile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/assets/DAB.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/assets/DAB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/level3.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/setting_level.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/setting_level.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level3/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level3/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level4/PlayerLv4Final.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level4/PlayerLv4Final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level4/level4.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level4/setting_level4.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level4/setting_level4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level5/PlayerLv5Final.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level5/PlayerLv5Final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level5/level5.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level5/setting_level5.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level5/setting_level5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level6/PlayerLv6Final.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level6/PlayerLv6Final.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level6/level6.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Level6/setting_level6.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Level6/setting_level6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/PlayerLv4.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/PlayerLv4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/PlayerLv4PoolStrat.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/PlayerLv4PoolStrat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/PlayerLv5.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/PlayerLv5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Population2.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Population2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Solid.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Solid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/Tile.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/Tile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/assets/DAB.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/assets/DAB.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/localStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/localStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/setting_level.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/setting_level.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHG/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/WHGprojects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/levelImages/level1.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/levelImages/level1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/levelImages/level2.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/levelImages/level2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/levelImages/level3.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/levelImages/level3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/levelImages/level4.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/levelImages/level4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/levelImages/level5.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/levelImages/level5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/WorldsHardestGame/levelImages/level6.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/WorldsHardestGame/levelImages/level6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/Board.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/MinimaxFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/MinimaxFunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/Piece.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/Piece.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/assets/2000px-Chess_Pieces_Sprite_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/chess.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/chess/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/chess/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/ConnectionGene.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/ConnectionGene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/ConnectionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/ConnectionHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/Genome.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/Genome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/Ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/Ground.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/Pipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/Pipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/PipePair.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/PipePair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/Species.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/Species.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/flappyBird.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/Untitled-3.psd" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/Untitled-3.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/bird.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/bird.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/christmasberd.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/christmasberd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/fatBird.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/fatBird.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/full pipe bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/full pipe bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/full pipe top.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/full pipe top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/groundPiece.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/groundPiece.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/photoshoip thing 1.psd" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/photoshoip thing 1.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/pipeHead0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/pipeHead0000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/images/shaft0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/images/shaft0000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSketches/flappyBird/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flappyBird/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merch.html" beforeDir="false" afterPath="$PROJECT_DIR$/merch/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/merch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectOld.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectOld.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/dot.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/dot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/homeSketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/images/chess.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/images/chess.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/images/creatureCreator.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/images/creatureCreator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/images/flappyBird.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/images/flappyBird.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/images/hillClimbRacing.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/images/hillClimbRacing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/images/marbleCalculator.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/images/marbleCalculator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectSketch/images/worldsHardestGame.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/images/worldsHardestGame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/MinimaxFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/MinimaxFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/Piece.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/Piece.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/chess/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/ConnectionGene.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/ConnectionGene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/ConnectionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/ConnectionHistory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Genome.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Genome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Ground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Pipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Pipe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/PipePair.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/PipePair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Population.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Species.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Species.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/Untitled-3.psd" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/Untitled-3.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/bird.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/bird.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/christmasberd.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/christmasberd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/fatBird.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/fatBird.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/full pipe bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/full pipe bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/full pipe top.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/full pipe top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/groundPiece.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/groundPiece.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/photoshoip thing 1.psd" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/photoshoip thing 1.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/pipeHead0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/pipeHead0000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/shaft0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/shaft0000.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flappyBird/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/sketch.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -287,8 +65,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+            <state relative-caret-position="612">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/FlappyBird/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/HillClimbRacing/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/MarbleCalculator/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -303,42 +117,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/Level4/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/Level5/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/Level6/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/flappyBird/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="626">
@@ -348,19 +126,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/chess/index.html">
+        <entry file="file://$PROJECT_DIR$/projects/Chess/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
               <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/merch/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -370,6 +139,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/merch/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="158" column="40" lean-forward="true" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -437,14 +215,12 @@
         <option value="$PROJECT_DIR$/projectSketch/homeSketch.js" />
         <option value="$PROJECT_DIR$/projects/projects.html" />
         <option value="$PROJECT_DIR$/projects/chess/chess.html" />
-        <option value="$PROJECT_DIR$/projects/sketch.js" />
         <option value="$PROJECT_DIR$/projectOld.html" />
         <option value="$PROJECT_DIR$/projects/chess/index.html" />
         <option value="$PROJECT_DIR$/projects/CreatureCreator/index.html" />
         <option value="$PROJECT_DIR$/projects/flappyBird/index.html" />
         <option value="$PROJECT_DIR$/projects/HillClimbRacing/index.html" />
         <option value="$PROJECT_DIR$/projects/MarbleCalculator/index.html" />
-        <option value="$PROJECT_DIR$/projects/index.html" />
         <option value="$PROJECT_DIR$/projects/WorldsHardestGame/index.html" />
         <option value="$PROJECT_DIR$/projects/WorldsHardestGame/Level1/index.html" />
         <option value="$PROJECT_DIR$/projects/WorldsHardestGame/Level2/index.html" />
@@ -452,16 +228,18 @@
         <option value="$PROJECT_DIR$/projects/WorldsHardestGame/Level4/index.html" />
         <option value="$PROJECT_DIR$/projects/WorldsHardestGame/Level5/index.html" />
         <option value="$PROJECT_DIR$/projects/WorldsHardestGame/Level6/index.html" />
-        <option value="$PROJECT_DIR$/merch/index.html" />
         <option value="$PROJECT_DIR$/about/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/projects/sketch.js" />
+        <option value="$PROJECT_DIR$/projects/index.html" />
+        <option value="$PROJECT_DIR$/merch/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="2814" />
-    <option name="height" value="2112" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="width" value="2813" />
+    <option name="height" value="2111" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -475,16 +253,6 @@
             <path>
               <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
-              <item name="merch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -543,18 +311,18 @@
       <workItem from="1581655072861" duration="52000" />
       <workItem from="1581655195937" duration="4730000" />
       <workItem from="1581727825834" duration="32069000" />
-      <workItem from="1581810182007" duration="1543000" />
+      <workItem from="1581810182007" duration="2866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57029000" />
+    <option name="totallyTimeSpent" value="58352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="-7" y="0" width="1875" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14736013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20348205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -695,45 +463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="83" column="1" lean-forward="true" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectOld.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="272" column="44" selection-start-line="272" selection-start-column="44" selection-end-line="272" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/HillClimbRacing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/MarbleCalculator/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -748,13 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/Level3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -779,10 +505,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/flappyBird/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        <state relative-caret-position="1221">
+          <caret line="74" column="34" lean-forward="true" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="154" selection-start-line="154" selection-end-line="168" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/Chess/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -793,17 +533,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/chess/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/FlappyBird/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        <state relative-caret-position="629">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/merch/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/HillClimbRacing/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/MarbleCalculator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/Level3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -814,10 +575,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/merch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="158" column="40" lean-forward="true" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+        <state relative-caret-position="612">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>

@@ -43,7 +43,7 @@ function preload() {
 
     let flappyBird = {
         image: loadImage("images/flappyBird.png"),
-        href: "flappyBird",
+        href: "FlappyBird",
         description: ["AI Learns To Play Flappy Bird",
             "As a 1 day challenge I coded the game flappy bird and then slapped on some AI to play it",
             "that was not a good day"]
@@ -66,9 +66,9 @@ function preload() {
     };
     let chess = {
         image: loadImage("images/chess.png"),
-        href: "chess",
+        href: "Chess",
         description: ["Chess AI",
-            "Using Minimax I created an AI to play chess, can you beat it?",
+            "Using Minimax I created an AI to play Chess, can you beat it?",
             "Probably because its kinda shit."]
     };
     let marbleCalculator = {
