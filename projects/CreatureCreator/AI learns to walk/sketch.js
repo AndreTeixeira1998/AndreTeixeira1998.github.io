@@ -407,7 +407,14 @@ function worldCoordsToPixelCoords(x, y) {
     y += panY;
     return createVector(x, y);
 }
-
+//converts world coordinates(in box2ds meters) to pixel coordinates
+function pixelCoordsToWorldCoords(x, y) {
+    x -= panX;
+    y -= panY;
+    x /= SCALE;
+    y /= SCALE;
+    return createVector(x, y);
+}
 
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------

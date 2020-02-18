@@ -25,30 +25,31 @@ let buttonManager;//manages all the buttons and mode stuff
 let defaultInstructions;//the current set of defaultInstructions that appear on the the top bar of the screen, different modes will overwrite the getMessages() function of the defaultInstructions to tell the user what to do in each mode
 
 
+p5.disableFriendlyErrors = true;
 //called on startup only
-function creatureCreatorSetup() {
 
+function creatureCreatorSetup() {
     //create the world for the creature
     world = new World();
+
     world.addFloorToWorld();
 
     //create the creature
     creature = new Creature();
-
     window.canvas = createCanvas(1500, 850);
+
+
     canvas.parent('canvas');
-
-
     canvas.mouseWheel(mouseWheelMoved);
-    frameRate(60);
 
+
+    frameRate(60);
 
     buttonManager = new ButtonManager();
 
     setDefaultInstructions();
 
     mouseJoint = new MouseJoint();
-
     //prevents the window from moving from the arrow keys or the spacebar
     window.addEventListener("keydown", function (e) {
         // space and arrow keys
@@ -108,6 +109,8 @@ function creatureCreatorKeyPressed() {
             break;
     }
 
+
+
     //see if the current mode can use the input
     buttonManager.onKeyPressed();
 
@@ -120,6 +123,8 @@ function creatureCreatorKeyReleased() {
         case SHIFT:
             shiftIncrease = 1;
             break;
+        case ENTER:
+            creature.setStrainingIfOverlap();
     }
 }
 

@@ -12,6 +12,8 @@ class Creature {
 
     //draws the creature to the screen
     show() {
+
+
         push();
         translate(panX, panY);
         for (let b of this.bodies) {
@@ -21,8 +23,25 @@ class Creature {
             j.show();
         }
         pop();
+
     }
 
+    setStrainingIfOverlap() {
+
+        for (let b of this.bodies) {
+            b.isStraining = false;
+        }
+
+        for (let i = 0; i < this.bodies.length; i++) {
+            for (let j = i + 1; j < this.bodies.length; j++) {
+                if (this.bodies[i].overLappingOtherBody(this.bodies[j])) {
+                    this.bodies[i].isStraining = true;
+                    this.bodies[j].isStraining = true;
+                }
+            }
+        }
+
+    }
 
     update() {
     }
@@ -61,7 +80,6 @@ class Creature {
         }
         this.selectedBody = -1;
     }
-
 
 
     unselectEverythingExceptForSelectedAsShape1s() {
@@ -168,9 +186,10 @@ class Creature {
         let distance = 0;
         //check bodies
         for (let i = 0; i < this.bodies.length; i++) {
+
             let pos = this.bodies[i].getPixelCoordinates();
             distance = dist(mouseX, mouseY, pos.x, pos.y);
-            if (distance < min && this.bodies[i].isShiftedPixelPosWithinFixtures(getShiftedMousePos())) {
+            if (distance < min && this.bodies[i].isShiftedMousePosWithinFixtures(getShiftedMousePos())) {
                 min = distance;
                 minIndex = i;
             }
@@ -202,7 +221,7 @@ class Creature {
             for (var i = 0; i < this.bodies.length; i++) {
                 let pos = this.bodies[i].getPixelCoordinates();
                 let distance = dist(mouseX, mouseY, pos.x, pos.y);
-                if (distance < min && this.bodies[i].isShiftedPixelPosWithinFixtures(getShiftedMousePos())) {
+                if (distance < min && this.bodies[i].isShiftedMousePosWithinFixtures(getShiftedMousePos())) {
                     min = distance;
                     minIndex = i;
                 }
@@ -284,7 +303,7 @@ class Creature {
                 }
                 let pos = this.bodies[i].getPixelCoordinates();
                 let distance = dist(mouseX, mouseY, pos.x, pos.y);
-                if (distance < min && this.bodies[i].isShiftedPixelPosWithinFixtures(getShiftedMousePos())) {
+                if (distance < min && this.bodies[i].isShiftedMousePosWithinFixtures(getShiftedMousePos())) {
                     min = distance;
                     minIndex = i;
                 }
@@ -384,10 +403,10 @@ class Creature {
 
 
     //returns whether the creature has a screaming image on it
-    isScreaming(){
-        for(let b of this.bodies){
-            for(let bodyImage of b.bodyImages){
-                if(bodyImage.isScreaming){
+    isScreaming() {
+        for (let b of this.bodies) {
+            for (let bodyImage of b.bodyImages) {
+                if (bodyImage.isScreaming) {
                     return true;
                 }
             }

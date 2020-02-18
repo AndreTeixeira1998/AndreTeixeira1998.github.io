@@ -72,8 +72,8 @@ class Population {
 
         if (tempBest.score > this.bestScore) {
             this.genPlayers.push(tempBest.cloneForReplay());
-            console.log("old best: " + this.bestScore);
-            console.log("new best: " + tempBest.score);
+            // console.log("old best: " + this.bestScore);
+            // console.log("new best: " + tempBest.score);
             this.bestScore = tempBest.score;
             this.bestPlayer = tempBest.cloneForReplay();
         }
@@ -101,7 +101,7 @@ class Population {
         this.killBadSpecies(); //kill this.species which are so bad that they cant reproduce
 
 
-        console.log("generation  " + this.gen + "  Number of mutations  " + this.innovationHistory.length + "  species:   " + this.species.length + "  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
+        // console.log("generation  " + this.gen + "  Number of mutations  " + this.innovationHistory.length + "  species:   " + this.species.length + "  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 
 
         let averageSum = this.getAvgFitnessSum();
@@ -142,6 +142,10 @@ class Population {
             else
                 warning = new Warning(`Population Size updated to ${this.players.length}`, 200, true);
         }
+
+        for (let s of this.species) { //empty species
+            s.players = [];
+        }
     }
 
     //------------------------------------------------------------------------------------------------------------------------------------------
@@ -161,29 +165,42 @@ class Population {
             }
             if (!speciesFound) { //if no species was similar enough then add a new this.species with this as its champion
                 this.species.push(new Species(this.players[i]));
-                this.bestOfEachSpecies.push({champ: this.players[i].cloneForReplay(), maxPlayerLength: 1});
-                print("new Species");
+                this.bestOfEachSpecies.push({champ: this.players[i].cloneForReplay(), maxPlayerLength: 1,speciesNo : this.bestOfEachSpecies.length});
+                // print("new Species");
             }
         }
         for (let s of this.species) {
             this.bestOfEachSpecies[s.speciesNumber] = {
                 champ: s.champ.cloneForReplay(),
-                maxPlayerLength: Math.max(this.bestOfEachSpecies[s.speciesNumber].maxPlayerLength, s.players.length)
+                maxPlayerLength: Math.max(this.bestOfEachSpecies[s.speciesNumber].maxPlayerLength, s.players.length),
+                speciesNo: s.speciesNumber
             };
         }
 
 
-        this.bestOfEachSpeciesSorted = [...this.bestOfEachSpecies];
-        this.bestOfEachSpeciesSorted.sort((a, b) => a.champ.bestScore - b.champ.bestScore);
-        this.bestOfPopularSpeciesSorted = this.bestOfEachSpeciesSorted.filter((a) => a.maxPlayerLength >= 2);
 
 
-        let minAllowedPlayerLength = 3;
+
+
+        this.bestOfPopularSpeciesSorted = this.bestOfEachSpecies.filter( (a) => a.champ!==null );
+        this.bestOfPopularSpeciesSorted.sort((a, b) => a.champ.bestScore - b.champ.bestScore);
+
+
+       //// this.bestOfPopularSpeciesSorted = this.bestOfEachSpeciesSorted.filter((a) => a.maxPlayerLength >= 2);
+
+
+
+        let minAllowedPlayerLength = 2;
         while (this.bestOfPopularSpeciesSorted.length > 30) {
 
             for (let i = 0; i < this.bestOfPopularSpeciesSorted.length - 5; i++) {
                 if (this.bestOfPopularSpeciesSorted[i].maxPlayerLength < minAllowedPlayerLength && this.bestOfPopularSpeciesSorted.length > 30) {
-                    this.bestOfPopularSpeciesSorted.splice(i, 1);
+
+                    //remove the species
+
+
+                    let speciesObj = this.bestOfPopularSpeciesSorted.splice(i, 1)[0];
+                    this.bestOfEachSpecies[speciesObj.speciesNo].champ = null;
                     i--;
                 }
             }

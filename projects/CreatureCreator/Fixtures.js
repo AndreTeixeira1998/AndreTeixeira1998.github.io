@@ -169,6 +169,8 @@ class Fixture {
         }
 
 
+        if (this.body.isStraining)
+            fill(200, 100, 100);
         let x = body.GetPosition().x * SCALE;
         let y = body.GetPosition().y * SCALE;
         let angle = body.GetAngle();
@@ -220,6 +222,11 @@ class Fixture {
     hitByLazer(lazerX) {
         return false;
     }
+
+
+    //overwite
+    isOverlappingWith(otherFixture) {
+    }
 }
 
 
@@ -261,6 +268,21 @@ class RectangleFixture extends Fixture {
         return this.pixelVectorPositions;
     }
 
+    getGlobalPixelVectors() {
+        let pixelVecs = this.getPixelVectors();
+        let bodyAngle = this.body.body.GetAngle();
+        let bodyPos = this.body.body.GetPosition();
+
+
+        for (let p of pixelVecs) {
+            p.rotate(bodyAngle);
+            p.x += bodyPos.x * SCALE;
+            p.y += bodyPos.y * SCALE;
+        }
+
+        return pixelVecs;
+    }
+
     //calculates the pixel positions of the corners are sets the shape as a polygon with those points
     calculateVectorsAndSetShape() {
 
@@ -282,6 +304,7 @@ class RectangleFixture extends Fixture {
         this.fixDef.shape.SetAsArray(this.vectors, 4);
 
     }
+
 
     //resets the center vector based on variables
     resetCenter() {
@@ -376,7 +399,255 @@ class RectangleFixture extends Fixture {
         return false;
     }
 
+
+    isOverlappingWith(otherFixture) {
+
+        let pixelVecs = this.getGlobalPixelVectors();
+
+        switch (otherFixture.fixtureType) {
+            case "circle":
+                return doConvexPolygonsOverlapALot2(pixelVecs, otherFixture.getGlobalPixelVectors());
+            case "rectangle":
+                return doConvexPolygonsOverlapALot2(pixelVecs, otherFixture.getGlobalPixelVectors());
+            case "array":
+                return doConvexPolygonsOverlapALot2(pixelVecs, otherFixture.getGlobalPixelVectors());
+
+            case "compound":
+
+                for (let f of otherFixture.fixtures) {
+                    if (this.isOverlappingWith(f)) {
+                        return true;
+                    }
+                }
+                return false;
+        }
+    }
+
 }
+
+
+//2 polygons overlap if the next 2 rules apply
+//1: if 2 convex polygons are not overlapping there exists a line which seperates them
+//2: this line only exists if one of the sides of one of the polygons forms such a line
+function doConvexPolygonsOverlapALot(polygon1, polygon2) {
+
+    let newPoly1 = [];
+    let newPoly2 = [];
+    centerOfPolygon1 = createVector(0, 0);
+    for (let point of polygon1) {
+        centerOfPolygon1.x += point.x;
+        centerOfPolygon1.y += point.y;
+    }
+
+    centerOfPolygon1.x /= polygon1.length;
+    centerOfPolygon1.y /= polygon1.length;
+
+
+    centerOfPolygon2 = createVector(0, 0);
+    for (let point of polygon2) {
+        centerOfPolygon2.x += point.x;
+        centerOfPolygon2.y += point.y;
+    }
+    centerOfPolygon2.x /= polygon2.length;
+    centerOfPolygon2.y /= polygon2.length;
+
+
+    //shrink each polygon a little bit
+    //like by 20%
+
+    for (let point of polygon1) {
+
+        let movementPoint = p5.Vector.sub(centerOfPolygon1, point);
+        if (movementPoint.mag() > 7) {
+            movementPoint.normalize();
+            movementPoint.mult(7);
+        } else {
+            movementPoint.mult(0.7);
+        }
+
+
+        let newPoint = p5.Vector.sub(point, centerOfPolygon1);
+        newPoint = p5.Vector.add(newPoint, centerOfPolygon1);
+        newPoly1.push(newPoint);
+    }
+
+    for (let point of polygon2) {
+
+        let movementPoint = p5.Vector.sub(centerOfPolygon2, point);
+        if (movementPoint.mag() > 7) {
+            movementPoint.normalize();
+            movementPoint.mult(7);
+        } else {
+            movementPoint.mult(0.7);
+        }
+
+
+        let newPoint = p5.Vector.sub(point, centerOfPolygon2);
+        newPoint = p5.Vector.add(newPoint, centerOfPolygon2);
+        newPoly2.push(newPoint);
+
+
+    }
+    // print(newPoly1,newPoly2);
+
+    return doConvexPolygonsOverlap(newPoly1, newPoly2);
+
+}
+
+function shrinkPolygon(polygon1, shrinkAmount) {
+    let newPoly1 = [];
+    let centerOfPolygon1 = createVector();
+    for (let point of polygon1) {
+        centerOfPolygon1.x += point.x;
+        centerOfPolygon1.y += point.y;
+    }
+
+    centerOfPolygon1.x /= polygon1.length;
+    centerOfPolygon1.y /= polygon1.length;
+
+
+    let newEdges = [];
+
+    for (let i = 0; i < polygon1.length; i++) {
+        let vert1 = polygon1[i];
+        let vert2 = polygon1[(i + 1) % polygon1.length];
+        let moveDirection = p5.Vector.sub(centerOfPolygon1, vert1);
+        let perpDirection = p5.Vector.sub(vert1, vert2).rotate(PI / 2).heading();
+
+        if (abs(perpDirection - moveDirection.heading()) > PI / 2 && abs(perpDirection - moveDirection.heading()) < 3 * PI / 2) {
+            perpDirection = (perpDirection + PI) % (2 * PI);
+        }
+
+        moveDirection = p5.Vector.fromAngle(perpDirection);
+        moveDirection.mult(shrinkAmount);
+
+        // if(moveDirection.mag()>7){
+        //     moveDirection.normalize();
+        //     moveDirection.mult(7);
+        // }else{
+        //     moveDirection.mult(0.7);
+        // }
+
+
+        let newEdge = [];
+        newEdge.push(p5.Vector.add(polygon1[i], moveDirection));
+        newEdge.push(p5.Vector.add(polygon1[(i + 1) % polygon1.length], moveDirection));
+
+        newEdges.push(newEdge);
+    }
+
+    for (let i = 0; i < newEdges.length; i++) {
+
+        let x1 = newEdges[i][0].x;
+        let y1 = newEdges[i][0].y;
+        let x2 = newEdges[i][1].x;
+        let y2 = newEdges[i][1].y;
+
+        let x3 = newEdges[(i + 1) % newEdges.length][0].x;
+        let y3 = newEdges[(i + 1) % newEdges.length][0].y;
+        let x4 = newEdges[(i + 1) % newEdges.length][1].x;
+        let y4 = newEdges[(i + 1) % newEdges.length][1].y;
+
+
+        //get the intersection between the 2 lines
+        let uA = ((x4 - x3) * (y1 - y3) - (y4 - y3) * (x1 - x3)) / ((y4 - y3) * (x2 - x1) - (x4 - x3) * (y2 - y1));
+        let uB = ((x2 - x1) * (y1 - y3) - (y2 - y1) * (x1 - x3)) / ((y4 - y3) * (x2 - x1) - (x4 - x3) * (y2 - y1));
+
+
+        let intersectionX = x1 + (uA * (x2 - x1));
+        let intersectionY = y1 + (uA * (y2 - y1));
+        newPoly1.push(createVector(intersectionX, intersectionY));
+
+
+    }
+
+    return newPoly1;
+
+
+}
+
+
+function doConvexPolygonsOverlapALot2(polygon1, polygon2) {
+    return doConvexPolygonsOverlap(shrinkPolygon(polygon1, 4), shrinkPolygon(polygon2, 4));
+}
+
+
+function doConvexPolygonsOverlap(polygon1, polygon2) {
+
+
+    // print("OVERLAP??????");
+    // print(polygon1, polygon2);
+    //1. get polygon edges as lines
+    let polygon1Lines = [];
+    for (let i = 0; i < polygon1.length; i++) {
+        polygon1Lines.push(p5.Vector.sub(polygon1[(i + 1) % polygon1.length], polygon1[i]));
+    }
+
+    let polygon2Lines = [];
+    for (let i = 0; i < polygon2.length; i++) {
+        polygon2Lines.push(p5.Vector.sub(polygon2[(i + 1) % polygon2.length], polygon2[i]));
+    }
+
+    // print(polygon1Lines,polygon2Lines);
+
+    //2. for each of the lines we squash all of the points of each polygon onto the normal to this line.
+    // this turns the problem into a 1d line collision problem
+    // if the 1d lines intersent then the line doesnt seperate the polygons.
+    // if no lines seperate the bad boys then they intersect
+    // for better explanation check this out
+    // //http://web.archive.org/web/20141127210836/http://content.gpwiki.org/index.php/Polygon_Collision
+
+
+    let allLines = [...polygon1Lines, ...polygon2Lines];
+    for (let line of allLines) {
+        line.normalize();
+
+        let normalLine = createVector(-line.y, line.x);
+        let polygon1DotProducts = [];
+        let polygon2DotProducts = [];
+        let minPolygon1Dot = p5.Vector.dot(polygon1[0], normalLine);
+        let maxPolygon1Dot = p5.Vector.dot(polygon1[0], normalLine);
+        let minPolygon2Dot = p5.Vector.dot(polygon2[0], normalLine);
+        let maxPolygon2Dot = p5.Vector.dot(polygon2[0], normalLine);
+
+
+        for (let point of polygon1) {
+
+
+            let dot = p5.Vector.dot(point, normalLine);
+
+            if (dot < minPolygon1Dot) {
+                minPolygon1Dot = dot;
+            }
+            if (dot > maxPolygon1Dot) {
+                maxPolygon1Dot = dot;
+            }
+        }
+
+        for (let point of polygon2) {
+            let dot = p5.Vector.dot(point, normalLine);
+
+            if (dot < minPolygon2Dot) {
+                minPolygon2Dot = dot;
+            }
+            if (dot > maxPolygon2Dot) {
+                maxPolygon2Dot = dot;
+            }
+        }
+
+        if (minPolygon1Dot > maxPolygon2Dot || maxPolygon1Dot < minPolygon2Dot) {
+            // print("They  dont overlap");
+            //seperating line found
+            return false;
+        }
+
+    }
+    // print("They overlap");
+
+    return true;
+
+}
+
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -427,6 +698,16 @@ class CircleFixture extends Fixture {
         this.center = createVector(this.x, this.y);
     }
 
+    getGlobalCenter() {
+        let gobalCenter = this.center;
+        gobalCenter.rotate(this.body.angle);
+        gobalCenter.x += this.body.x;
+        gobalCenter.y += this.body.y;
+
+
+        return gobalCenter;
+    }
+
     //doesnt do shit to a circle
     rotate(rotateAmount) {
     }
@@ -471,6 +752,42 @@ class CircleFixture extends Fixture {
         let pos = createVector(this.x, this.y);
         pos.rotate(this.body.body.GetAngle());
         return (this.body.getShiftedPixelCoordinates().x + pos.x - this.radius < lazerX);
+    }
+
+
+    isOverlappingWith(otherFixture) {
+
+        //let pixelVecs = this.getPixelVectors();
+
+        switch (otherFixture.fixtureType) {
+            case "circle":
+                return dist(this.pixelCenter.x, this.pixelCenter.y, otherFixture.pixelCenter.x, otherFixture.pixelCenter.y) < this.radius + otherFixture.radius;
+            case "rectangle":
+                //create a diamond inside the circle and see if it overlaps the rectangle
+                return doConvexPolygonsOverlapALot2(this.getGlobalPixelVectors(), otherFixture.getGlobalPixelVectors());
+
+            case "array":
+                return doConvexPolygonsOverlapALot2(this.getGlobalPixelVectors(), otherFixture.getGlobalPixelVectors());
+
+            case "compound":
+
+                for (let f of otherFixture.fixtures) {
+                    if (this.isOverlappingWith(f)) {
+                        return true;
+                    }
+                }
+                return false;
+        }
+        return false;
+    }
+
+    getGlobalPixelVectors() {
+        let pixelVecs = [createVector(this.pixelCenter.x - this.radius, this.pixelCenter.y),
+            createVector(this.pixelCenter.x, this.pixelCenter.y + this.radius),
+            createVector(this.pixelCenter.x + this.radius, this.pixelCenter.y),
+            createVector(this.pixelCenter.x, this.pixelCenter.y - this.radius)];
+
+        return pixelVecs;
     }
 
 }
@@ -672,7 +989,60 @@ class ArrayFixture extends Fixture {
         return false;
     }
 
+    isOverlappingWith(otherFixture) {
+
+        //let pixelVecs = this.getPixelVectors();
+
+        switch (otherFixture.fixtureType) {
+            case "circle":
+                return doConvexPolygonsOverlapALot2(otherFixture.getGlobalPixelVectors(), this.getGlobalPixelVectors());
+            // return dist(this.pixelCenter.x, this.pixelCenter.y, otherFixture.pixelCenter.x, otherFixture.pixelCenter.y) < this.radius + otherFixture.radius;
+            case "rectangle":
+                //create a diamond inside the circle and see if it overlaps the rectangle
+                return doConvexPolygonsOverlapALot2(otherFixture.getGlobalPixelVectors(), this.getGlobalPixelVectors());
+
+            case "array":
+                return doConvexPolygonsOverlapALot2(otherFixture.getGlobalPixelVectors(), this.getGlobalPixelVectors());
+
+            case "compound":
+                for (let f of otherFixture.fixtures) {
+                    if (this.isOverlappingWith(f)) {
+                        return true;
+                    }
+                }
+                return false;
+        }
+        return false;
+    }
+
+    isMouseOverFixture() {
+
+        let worldMouse = pixelCoordsToWorldCoords(mouseX, mouseY);
+        let worldMouseVec2 = new Vec2(worldMouse.x, worldMouse.y);
+        return this.fixture.TestPoint(worldMouseVec2);
+
+    }
+
+
+    getGlobalPixelVectors() {
+        let pixelVecs = [];
+        for (let pos of this.pixelVectorPositions) {
+            pixelVecs.push(cloneVector(pos));
+        }
+        let bodyAngle = this.body.body.GetAngle();
+        let bodyPos = this.body.body.GetPosition();
+
+
+        for (let p of pixelVecs) {
+            p.rotate(bodyAngle);
+            p.x += bodyPos.x * SCALE;
+            p.y += bodyPos.y * SCALE;
+        }
+
+        return pixelVecs;
+    }
 }
+
 //since p5s vectors cannot be added to an object becuase they have infinite loops i need to create my own with no fancy stuff
 function createEvanVector(vec) {
     this.x = vec.x;

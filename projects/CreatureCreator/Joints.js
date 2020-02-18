@@ -44,6 +44,7 @@ class RevoluteJoint {
 
         this.controlJoint = false;//another kinda useless variable for allowing you to turn off the players ability to control this joint, this functionality was not included in the final thing
 
+        this.isStraining = false;
     }
 
     //converts the information into an object (like a JSON), used to pass the creatures joint info to the NEAT algorithm
@@ -247,6 +248,8 @@ class RevoluteJoint {
         }
 
         pop();
+
+
 
     }
 

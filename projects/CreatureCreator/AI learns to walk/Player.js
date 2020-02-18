@@ -21,8 +21,6 @@ class Player {
         this.dead = false;
 
 
-
-
         this.floorBody;// the floor body (created in the addBodiesAndSHitFromCreature())
         this.bodies = [];
         this.joints = [];
@@ -77,6 +75,8 @@ class Player {
             pop();
 
             this.isShowing = true;
+
+
         }
 
     }
@@ -84,6 +84,10 @@ class Player {
     //---------------------------------------------------------------------------------------------------------------------------------------------------------
     //sets the joint speed of each joint based on the outputs of the brain
     move() {
+
+        for (let j of this.joints) {
+
+        }
 
         let counter = 0;
         for (var j of this.joints) {
@@ -132,6 +136,18 @@ class Player {
                 }
 
 
+                if (!simulatedEase && Math.abs(j.joint.GetJointSpeed()) < 1 && Math.abs(j.joint.GetJointSpeed() - j.joint.GetMotorSpeed()) > 2 && !j.isStraining) {
+                    // j.isStraining = true;
+                    // j.body1.isStraining = true;
+                    // j.body2.isStraining = true;
+                    // j.setMaxTorque(j.motorTorque / 5);
+
+                    //print("ahhhhhhh");
+                } else {
+
+                }
+
+
                 //if the joint hasnt already had simulated ease applied because its close to the limits then limit the joints acceleration so it looks more natural
                 if (!simulatedEase && Math.abs(j.motorSpeed - jointSpeed) > maxJointAcceleration) {
                     if (jointSpeed > j.motorSpeed) {
@@ -146,10 +162,78 @@ class Player {
             }
         }
 
+
+
+        if(frameCount % 5 ===0){
+
+
+
+
+            // for (let b of this.bodies) {
+            //     b.isStraining = false;
+            // }
+
+            // for (let i = 0; i < this.bodies.length; i++) {
+            //     for (let j = i + 1; j < this.bodies.length; j++) {
+            //         if (this.bodies[i].overLappingOtherBody(this.bodies[j])) {
+            //             this.bodies[i].isStraining = true;
+            //             this.bodies[j].isStraining = true;
+            //         }
+            //     }
+            // }
+            //
+
+
+            for (let b of this.bodies) {
+
+
+
+                let contactListKinda = b.body.GetContactList();
+                let contactList = [];
+                while (contactListKinda !== null) {
+                    if (contactListKinda.contact.IsEnabled() &&  b.overLappingOtherBody(contactListKinda.other.GetUserData())) {
+                        contactList.push(contactListKinda.other);
+                    }
+
+
+                    contactListKinda = contactListKinda.next;
+
+
+                }
+
+
+                if (contactList.length > 0) {
+                    // b.isStraining = true;
+                    b.strainCount++;
+
+
+                    if (b.strainCount > 4) {
+                        for (let joint of this.joints) {
+                            joint.disableMotor();
+                        }
+                    }
+
+                    if (b.strainCount > 10) {
+
+                        //kill the player
+                        this.dead = true;
+                        this.deathCounter = -1;
+
+
+                    }
+
+                } else {
+                    b.isStraining = false;
+                    b.strainCount = 0;
+                }
+
+
+            }
+        }
     }
 
-    //---------------------------------------------------------------------------------------------------------------------------------------------------------
-    //called every frame
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+//called every frame
     update() {
         this.lifespan++;
         //decrease steps to live and kill it if its less than 0
@@ -237,9 +321,9 @@ class Player {
 
     }
 
-    //----------------------------------------------------------------------------------------------------------------------------------------------------------
-    //gets input for the NN from its environment
-    //populates the vision array
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
+//gets input for the NN from its environment
+//populates the vision array
     look() {
         this.vision = [];
 
@@ -373,7 +457,7 @@ class Player {
 
     }
 
-    //gets the center of mass of the creature
+//gets the center of mass of the creature
     getCenterOfMass() {
         let bodyMasses = [];
         let totalMass = 0;
@@ -392,8 +476,8 @@ class Player {
     }
 
 
-    //---------------------------------------------------------------------------------------------------------------------------------------------------------
-    //gets the output of the brain then converts them to actions, i.e. populates the jointSpeeds array
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+//gets the output of the brain then converts them to actions, i.e. populates the jointSpeeds array
     think() {
 
 
@@ -406,10 +490,21 @@ class Player {
             this.jointSpeeds[i] = jointSpeed;
 
         }
+
+        for (let j of this.joints) {
+            if (j.isStraining) {
+                // j.isStraining = false;
+                // j.body1.isStraining = false;
+                // j.body2.isStraining = false;
+                // j.setMaxTorque(j.motorTorque * 5);
+            }
+        }
+
+
     }
 
-    //---------------------------------------------------------------------------------------------------------------------------------------------------------
-    //returns a clone of this player with the same brian
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+//returns a clone of this player with the same brian
     clone() {
         var clone = new Player();
         clone.brain = this.brain.clone();
@@ -417,13 +512,13 @@ class Player {
         clone.brain.generateNetwork();
         clone.gen = this.gen;
         clone.bestScore = max(this.score, this.bestScore);
-        clone.parent = this;
+
         return clone;
     }
 
-    //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    //since there is some randomness in games sometimes when we want to replay the game we need to remove that randomness
-    //this fuction does that
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//since there is some randomness in games sometimes when we want to replay the game we need to remove that randomness
+//this fuction does that
 
     cloneForReplay() {
         var clone = new Player();
@@ -437,8 +532,8 @@ class Player {
         return clone;
     }
 
-    //---------------------------------------------------------------------------------------------------------------------------------------------------------
-    //fot Genetic algorithm
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+//fot Genetic algorithm
     calculateFitness() {
         let distance = this.bestX - this.startingX;
         if (distance < 0) {
@@ -448,8 +543,8 @@ class Player {
         //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<replace
     }
 
-    //---------------------------------------------------------------------------------------------------------------------------------------------------------
-    //returns a child which is a crossover of this player and the argument player
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+//returns a child which is a crossover of this player and the argument player
     crossover(parent2) {
 
         var child = new Player();
@@ -458,8 +553,8 @@ class Player {
         return child;
     }
 
-    //adds bodies and joints from the creature object to this players box2d world
-    //also adds the floorbody
+//adds bodies and joints from the creature object to this players box2d world
+//also adds the floorbody
     addBodiesAndShitFromCreature() {
         let friction = 0.8;
 
@@ -487,8 +582,8 @@ class Player {
     }
 
 
-    //adds the argument body to this players box2d world
-    //also adds all images
+//adds the argument body to this players box2d world
+//also adds all images
     addBodyFromObject(obj) {
         const {x, y, angle, isDynamic} = obj;
         let body = new Body(x, y, angle, isDynamic, this.world);
@@ -547,7 +642,7 @@ class Player {
 
     }
 
-    //adds the argument joint to this players box2d world
+//adds the argument joint to this players box2d world
     addJointFromObject(obj) {
         const {type, anchorX, anchorY, body1No, body2No, limitRevolution, upperLimit, lowerLimit} = obj;
         if (type !== "revolute") {

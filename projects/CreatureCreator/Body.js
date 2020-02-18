@@ -55,6 +55,10 @@ class Body {
 
         this.showImageObjects = true;
         this.isOnScreen = true;
+
+
+        this.isStraining = false;
+        this.straingCount = 0;
     }
 
     //adds an image to this body
@@ -164,6 +168,24 @@ class Body {
     isShiftedPixelPosWithinFixtures(shiftedPixelCoords) {
         let localPos = this.getLocalPixelCoordinatesOfPixelLocation(shiftedPixelCoords);
         for (var f of this.fixtures) {
+            if (f.isLocalPixelPosWithinFixture(localPos)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    //checks each fixture to see if pos is within them, used for the mouse selecting bodies
+    isShiftedMousePosWithinFixtures(shiftedPixelCoords) {
+        let localPos = this.getLocalPixelCoordinatesOfPixelLocation(shiftedPixelCoords);
+        for (var f of this.fixtures) {
+            if (f.fixtureType === "compound" || f.fixtureType === "array") {
+                if (f.isMouseOverFixture()) {
+                    return true;
+                }
+                continue;
+            }
             if (f.isLocalPixelPosWithinFixture(localPos)) {
                 return true;
             }
@@ -340,7 +362,6 @@ class Body {
             f.scaleRelativeToBody(multiplyAmount);
 
         }
-        print("HERE");
         for (let bodyImage of this.bodyImages) {
             bodyImage.scaleRelativeToBody(multiplyAmount);
         }
@@ -487,6 +508,22 @@ class Body {
         for (let f of this.fixtures) {
             f.outlineColor = color;
         }
+    }
+
+
+    //is overlapping other body
+
+    overLappingOtherBody(body2) {
+
+        for (let f of this.fixtures) {
+            for (let f2 of body2.fixtures) {
+                if (f.isOverlappingWith(f2)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+
     }
 }
 

@@ -6,50 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="48672a2e-6501-4135-acb1-dd5eed20bb12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/merch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectOld.html" beforeDir="false" afterPath="$PROJECT_DIR$/projectOld.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/Board.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/MinimaxFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/MinimaxFunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/Piece.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/Piece.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_08.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_09.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/assets/2000px-Chess_Pieces_Sprite_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/assets/2000px-Chess_Pieces_Sprite_12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/chess/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/Chess/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/ConnectionGene.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/ConnectionGene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/ConnectionHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/ConnectionHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Genome.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Genome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Ground.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Ground.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Pipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Pipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/PipePair.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/PipePair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Population.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/Species.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/Species.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/Untitled-3.psd" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/Untitled-3.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/bird.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/bird.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/christmasberd.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/christmasberd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/fatBird.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/fatBird.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/full pipe bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/full pipe bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/full pipe top.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/full pipe top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/groundPiece.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/groundPiece.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/photoshoip thing 1.psd" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/photoshoip thing 1.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/pipeHead0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/pipeHead0000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/images/shaft0000.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/images/shaft0000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/flappyBird/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/sketch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Player.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Population.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Population.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/CompoundFixture.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/CompoundFixture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 10.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/CosmeticImages/face 6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Creature.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Creature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/sketch.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/sketch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/Fixtures.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Fixtures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/CreatureCreator/Joints.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/CreatureCreator/Joints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/FlappyBird/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/FlappyBird/player.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,92 +30,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/FlappyBird/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/HillClimbRacing/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/MarbleCalculator/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/Level3/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+            <state relative-caret-position="918">
+              <caret line="54" column="135" selection-start-line="54" selection-start-column="135" selection-end-line="54" selection-end-column="135" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/Chess/index.html">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Body.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="247" column="4" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Species.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-672">
+              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/sketch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Population.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="103" column="22" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/libraries/p5.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="12430" column="18" lean-forward="true" selection-start-line="12430" selection-start-column="18" selection-end-line="12430" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/EvolveButton.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
-              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+              <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Creature.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about/index.html">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+            <state relative-caret-position="520">
+              <caret line="521" lean-forward="true" selection-start-line="521" selection-end-line="521" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/merch/index.html">
+        <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="158" column="40" lean-forward="true" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
+            <state relative-caret-position="391">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -163,23 +131,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>60</find>
-      <find>14</find>
-      <find>10</find>
-      <find>0</find>
-      <find>creatureCreator</find>
-      <find>fucking</find>
-      <find>background</find>
-      <find>windowWidth</find>
-      <find>print</find>
-      <find>rect</find>
-      <find>maxAnimationCounter</find>
-      <find>21</find>
       <find>rand</find>
       <find>lowPowerMode</find>
       <find>16</find>
       <find>index</find>
+      <find>show</find>
+      <find>1000</find>
+      <find>fixtureType</find>
+      <find>Vec2</find>
+      <find>rotate</find>
+      <find>global</find>
+      <find>strain</find>
+      <find>0.5</find>
+      <find>doConvexPolygonsOverlap</find>
+      <find>body1</find>
+      <find>doConvexPolygonsOverlap(</find>
+      <find>overlap</find>
+      <find>doConvexPolygonsOverlapALot</find>
+      <find>show(</find>
+      <find>250</find>
+      <find>mouse</find>
+      <find>parent</find>
+      <find>clonw</find>
+      <find>bestOfEachSpeciesSorted</find>
+      <find>bestOfEachSpeciesSo</find>
+      <find>champ</find>
+      <find>clone(</find>
+      <find>species</find>
+      <find>new population</find>
+      <find>log</find>
+      <find>print</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\CodeBullet\Documents\GitHub\TheBigCB.com</dir>
+      <dir>C:\Users\CodeBullet\Documents\GitHub\TheBigCB.com\projects\CreatureCreator</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -187,11 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ProjectSketches/Creature Creator/Creature creator/sketch.js" />
-        <option value="$PROJECT_DIR$/ProjectSketches/Creature Creator/index.html" />
-        <option value="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/sketch.js" />
-        <option value="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/Object.js" />
-        <option value="$PROJECT_DIR$/libraries/matter.js" />
         <option value="$PROJECT_DIR$/libraries/p5.js" />
         <option value="$PROJECT_DIR$/About.html" />
         <option value="$PROJECT_DIR$/ProjectSketches/MarbleCalculator/MarbleCalculator.html" />
@@ -217,7 +198,6 @@
         <option value="$PROJECT_DIR$/projects/chess/chess.html" />
         <option value="$PROJECT_DIR$/projectOld.html" />
         <option value="$PROJECT_DIR$/projects/chess/index.html" />
-        <option value="$PROJECT_DIR$/projects/CreatureCreator/index.html" />
         <option value="$PROJECT_DIR$/projects/flappyBird/index.html" />
         <option value="$PROJECT_DIR$/projects/HillClimbRacing/index.html" />
         <option value="$PROJECT_DIR$/projects/MarbleCalculator/index.html" />
@@ -233,13 +213,24 @@
         <option value="$PROJECT_DIR$/projects/sketch.js" />
         <option value="$PROJECT_DIR$/projects/index.html" />
         <option value="$PROJECT_DIR$/merch/index.html" />
+        <option value="$PROJECT_DIR$/projects/FlappyBird/player.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/Joints.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sketch.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/index.html" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/CompoundFixture.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/Fixtures.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Player.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Population.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/Body.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/sketch.js" />
+        <option value="$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Creature.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="2813" />
-    <option name="height" value="2111" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="width" value="2544" />
+    <option name="height" value="2112" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -253,6 +244,32 @@
             <path>
               <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="CreatureCreator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="CreatureCreator" type="462c0819:PsiDirectoryNode" />
+              <item name="Creature creator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TheBigCB.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TheBigCB.com" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="CreatureCreator" type="462c0819:PsiDirectoryNode" />
+              <item name="Creature creator" type="462c0819:PsiDirectoryNode" />
+              <item name="CosmeticImages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,17 +329,19 @@
       <workItem from="1581655195937" duration="4730000" />
       <workItem from="1581727825834" duration="32069000" />
       <workItem from="1581810182007" duration="2866000" />
+      <workItem from="1581893622176" duration="29948000" />
+      <workItem from="1582007816272" duration="7837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58352000" />
+    <option name="totallyTimeSpent" value="96137000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1875" height="1407" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20348205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22537431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,11 +360,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14736013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22557297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32969603" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -364,13 +383,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/Dot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-398">
@@ -431,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/sketch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Box2dGlobals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -455,7 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/index.html" />
     <entry file="file://$PROJECT_DIR$/projects/dot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1198">
@@ -519,45 +523,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/Chess/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+        <state relative-caret-position="612">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/FlappyBird/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state relative-caret-position="1088">
           <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/HillClimbRacing/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="1088">
           <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/MarbleCalculator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
+        <state relative-caret-position="1020">
           <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/WorldsHardestGame/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="2210">
           <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/Chess/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="40" lean-forward="true" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -568,24 +586,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/FlappyBird/player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="151" column="20" selection-start-line="151" selection-start-column="20" selection-end-line="151" selection-end-column="20" />
+        <state relative-caret-position="748">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/merch/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="158" column="40" lean-forward="true" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
+        <state relative-caret-position="170">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/MouseJoint.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="204">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/CompoundFixture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7395">
+          <caret line="436" column="4" selection-start-line="436" selection-start-column="4" selection-end-line="436" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Joints.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1828">
+          <caret line="376" lean-forward="true" selection-start-line="376" selection-end-line="376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="521" lean-forward="true" selection-start-line="521" selection-end-line="521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="247" column="4" selection-start-line="247" selection-start-column="4" selection-end-line="247" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/FlappyBird/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/ButtonCreationMethods/EvolveButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Population.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="103" column="22" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/AI learns to walk/Species.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="135" selection-start-line="54" selection-start-column="135" selection-end-line="54" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/libraries/p5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12430" column="18" lean-forward="true" selection-start-line="12430" selection-start-column="18" selection-end-line="12430" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/CreatureCreator/Creature creator/Creature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>

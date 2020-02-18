@@ -57,6 +57,7 @@ class Player {
     pop();
 
     this.ground.show();
+
   }
 
   move() {
