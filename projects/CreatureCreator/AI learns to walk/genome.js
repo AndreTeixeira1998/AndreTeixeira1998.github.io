@@ -484,7 +484,9 @@ class Genome {
         for (var i = 0; i < this.genes.length; i++) {
             if (this.genes[i].enabled) {
                 stroke(0, transparency);
+
             } else {
+
                 stroke(100, transparency);
             }
             let from;
@@ -492,8 +494,10 @@ class Genome {
             from = nodePoses[nodeNumbers.indexOf(this.genes[i].fromNode.number)];
             to = nodePoses[nodeNumbers.indexOf(this.genes[i].toNode.number)];
             if (this.genes[i].weight > 0) {
+
                 stroke(0, 0, 0, transparency);
             } else {
+
                 stroke(255, 255, 0, transparency);
             }
             strokeWeight(map(abs(this.genes[i].weight), 0, 1, 0, 3));
@@ -522,21 +526,6 @@ class Genome {
             text(nodeNumbers[i], nodePoses[i].x, nodePoses[i].y - 2);
 
         }
-
-        // print out neural network info text
-        // textAlign(RIGHT);
-        // fill(255);
-        // textSize(15);
-        // noStroke();
-        // text("car angle", nodePoses[0].x - 20, nodePoses[0].y);
-        // text("touching ground", nodePoses[1].x - 20, nodePoses[1].y);
-        // text("angular velocity", nodePoses[2].x - 20, nodePoses[2].y);
-        // text("Distance to ground", nodePoses[3].x - 20, nodePoses[3].y);
-        // text("gradient", nodePoses[4].x - 20, nodePoses[4].y);
-        // text("bias", nodePoses[5].x - 20, nodePoses[5].y);
-        // textAlign(LEFT);
-        // text("gas", nodePoses[nodePoses.length - 2].x + 20, nodePoses[nodePoses.length - 2].y);
-        // text("break", nodePoses[nodePoses.length - 1].x + 20, nodePoses[nodePoses.length - 1].y);
 
 
     }

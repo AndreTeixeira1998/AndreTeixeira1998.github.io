@@ -415,4 +415,9 @@ class Creature {
         return false;
 
     }
+
+
+
+    //if some of the bodies are already overlapping at the start of evolution then dont kill the player if these are overlapping
+    setAlreadyOverlappingBodies(){}
 }

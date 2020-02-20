@@ -52,6 +52,14 @@ class Player {
         this.isOnScreen = false;
         this.isShowing = false;
 
+        this.strainingPairs = [];
+
+        for (let i = 0; i < this.bodies.length; i++) {
+            for (let j = i + 1; j < this.bodies.length; j++) {
+                let strainingPair = {body1: i, body2: j, strainCount: 0};
+                this.strainingPairs.push(strainingPair);
+            }
+        }
     }
 
     //---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -163,10 +171,7 @@ class Player {
         }
 
 
-
-        if(frameCount % 5 ===0){
-
-
+        if (this.lifespan % 5 === 0) {
 
 
             // for (let b of this.bodies) {
@@ -187,12 +192,25 @@ class Player {
             for (let b of this.bodies) {
 
 
-
                 let contactListKinda = b.body.GetContactList();
                 let contactList = [];
                 while (contactListKinda !== null) {
-                    if (contactListKinda.contact.IsEnabled() &&  b.overLappingOtherBody(contactListKinda.other.GetUserData())) {
-                        contactList.push(contactListKinda.other);
+                    if (contactListKinda.contact.IsEnabled() && b.overLappingOtherBody(contactListKinda.other.GetUserData())) {
+
+
+                        //find this contact pair
+                        for (let pair of this.strainingPairs) {
+                            if ((this.bodies[pair.body1] === b && this.bodies[pair.body2] === contactListKinda.other.GetUserData())) {
+
+                                //if the pair has contacted every frame then ignore it because its perminent and a design flaw of the user
+                                if(pair.strainCount < this.lifespan/5) {
+                                    contactList.push(contactListKinda.other);
+                                }
+                                pair.strainCount++;
+
+                            }
+                        }
+
                     }
 
 
@@ -203,6 +221,10 @@ class Player {
 
 
                 if (contactList.length > 0) {
+
+
+                    //if that body has been straining every frame
+
                     // b.isStraining = true;
                     b.strainCount++;
 
@@ -235,7 +257,6 @@ class Player {
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 //called every frame
     update() {
-        this.lifespan++;
         //decrease steps to live and kill it if its less than 0
         if (!this.dead) {
             this.stepsToLive -= 1;
@@ -318,6 +339,7 @@ class Player {
             }
         }
 
+        this.lifespan++;
 
     }
 
@@ -560,7 +582,7 @@ class Player {
 
 
         this.floorBody = new Body(-100, 764, 0, false, this.world);
-        this.floorBody.addRectFixture(-531, -15, 120070, 120, 0);
+        this.floorBody.addRectFixture(-531, -15, 1200070, 120, 0);
         this.floorBody.fixtures[0].setValues(friction, 1, 0.44999999999999996);
         this.floorBody.id = "ground";
 

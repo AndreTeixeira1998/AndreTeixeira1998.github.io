@@ -39,7 +39,7 @@ class Species {
     var averageWeightDiff = this.averageWeightDiff(g, this.rep); //get the average weight difference between matching genes
 
 
-    var largeGenomeNormaliser = g.genes.length - 100;
+    var largeGenomeNormaliser = g.genes.length - 300;
     if (largeGenomeNormaliser < 1) {
       largeGenomeNormaliser = 1;
     }

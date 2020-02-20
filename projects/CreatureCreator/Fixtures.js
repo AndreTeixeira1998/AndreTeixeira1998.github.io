@@ -568,7 +568,7 @@ function shrinkPolygon(polygon1, shrinkAmount) {
 
 
 function doConvexPolygonsOverlapALot2(polygon1, polygon2) {
-    return doConvexPolygonsOverlap(shrinkPolygon(polygon1, 4), shrinkPolygon(polygon2, 4));
+    return doConvexPolygonsOverlap(shrinkPolygon(polygon1, 3), shrinkPolygon(polygon2, 3));
 }
 
 

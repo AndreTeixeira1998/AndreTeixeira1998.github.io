@@ -30,9 +30,12 @@ function generateEvolveButton(x, y, w, h, modeNumber) {
     };
 
     mode.everyFrame = function(){
+
         if(this.countDown-- <= 0 ){
             world.reset();
             isCreatureScreaming = creature.isScreaming();
+
+            creature.setAlreadyOverlappingBodies();
             creatureObject = creature.getCreatureAsObject();
             inCreatureCreatorMode = false;
             world.paused = false;
@@ -40,7 +43,14 @@ function generateEvolveButton(x, y, w, h, modeNumber) {
             AILearnsToWalkSetup();
             this.deactivate();
             paused = false;
+
+
         }
+
+
+
+
+
     };
 
 

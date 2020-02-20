@@ -82,6 +82,7 @@ function creatureCreatorDraw() {
 //draws the background color and floor
 function drawBackground() {
 
+
     let tiledPanX = panX * playerScaleAmount;
     while (tiledPanX < 0) {
         tiledPanX += canvas.width;

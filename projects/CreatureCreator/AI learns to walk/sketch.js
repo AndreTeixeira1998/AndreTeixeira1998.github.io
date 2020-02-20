@@ -57,6 +57,7 @@ function AILearnsToWalkSetup() {
 
 //called every frame when in AI learns to draw mode
 function AILearnsToWalkDraw() {
+
     if (!paused) {
 
 
@@ -230,6 +231,8 @@ function drawLazer() {
             randomValues.push(rand1, rand2, rand3, rand4);
         }
     }
+
+    pop();
 }
 
 
@@ -385,7 +388,6 @@ function manageSounds() {
 
 //resets all audio tracks to the begining and stops them, used when a generation or batch is finished
 function resetAudio() {
-
     for (let sound of screamSounds) {
         sound.setVolume(0.2);
         sound.setLoop(true);
@@ -530,7 +532,7 @@ function writeInfo() {
     // }
     // text("FPS: " + round(previousFrameRate),20,canvas.height-30);
     //
-    // pop();
+    pop();
 
 
 }
