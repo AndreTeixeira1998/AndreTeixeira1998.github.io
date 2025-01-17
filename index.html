@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting...</title>
+  <style>
+    /* Reset and basic styling */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Center the spinner and text */
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    
+    /* Spinner styling */
+    .spinner {
+      border: 8px solid #f3f3f3;   /* Light grey */
+      border-top: 8px solid #3498db; /* Blue */
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin-bottom: 20px;
+    }
+
+    /* Spinner animation */
+    @keyframes spin {
+      0%   { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Text styling */
+    .redirect-text {
+      font-size: 1.2rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="spinner"></div>
+    <div class="redirect-text">Redirecting...</div>
+  </div>
+
+  <!-- Attempt immediate redirect; 
+       if it takes a moment, the spinner is visible. -->
+  <script>
+    // Adjust the delay as needed; 50ms is practically instant for most users
+    setTimeout(function() {
+      window.location.href = "https://raceland.pt";
+    }, 50);
+  </script>
+</body>
+</html>
