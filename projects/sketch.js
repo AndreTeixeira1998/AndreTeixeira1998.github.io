@@ -79,7 +79,7 @@ function preload() {
             "yes"]
     };
 
-    projects.push(creatureCreator, flappyBird, worldsHardestGame, hillClimbRacing, chess, marbleCalculator);
+    projects.push(chess, worldsHardestGame, creatureCreator, flappyBird );
 
 }
 
